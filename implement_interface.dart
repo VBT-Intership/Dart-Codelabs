@@ -16,7 +16,7 @@ class Circle implements Shape {
   num get area => pi * pow(radius, 2);
 }
 
-//CircleMock doesn't inherit the implementation of Circle—it only uses its interface. Fix this error by defining the area and radius instance variables:
+
 class CircleMock implements Circle {
   num area;
   num radius;
